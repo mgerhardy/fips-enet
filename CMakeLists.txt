@@ -41,15 +41,15 @@ fips_begin_lib(enet)
 	endif()
 
 	fips_files(
-		callbacks.c
-		compress.c
-		host.c
-		list.c
-		packet.c
-		peer.c
-		protocol.c
-		unix.c
-		win32.c
+		enet/callbacks.c
+		enet/compress.c
+		enet/host.c
+		enet/list.c
+		enet/packet.c
+		enet/peer.c
+		enet/protocol.c
+		enet/unix.c
+		enet/win32.c
 	)
 
 	# hack to silence some warnings
