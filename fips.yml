@@ -1,0 +1,9 @@
+#
+# fips-enet
+#
+---
+exports:
+    header-dirs:
+        - enet
+    modules :
+        enet: .
