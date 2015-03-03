@@ -4,6 +4,6 @@
 ---
 exports:
     header-dirs:
-        - enet
+        - enet/include
     modules :
         enet: .
